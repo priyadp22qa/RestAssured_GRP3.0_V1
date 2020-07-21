@@ -1,0 +1,30 @@
+[
+	{
+		"key": "95023458",
+		"type": "GTIN",
+		"companyName": "Hlaing Foodstuff",
+		"status": 1,
+		"licenseeGLN": null,
+		"issuerGLN": null,
+		"dataSourceGLN": null
+	},
+	{
+		"key": "950234557",
+		"type": "gcp",
+		"companyName": "Htoo Aunt Curry Paste Enterprise",
+		"status": 1,
+		"licenseeGLN": null,
+		"issuerGLN": null,
+		"dataSourceGLN": null
+	},
+	{
+		"key": "9502345587686",
+		"type": "GLN",
+		"companyName": "Century Beverage CO.,LTD",
+		"status": 1,
+		"licenseeGLN": null,
+		"issuerGLN": null,
+		"dataSourceGLN": null
+	}
+]
+        

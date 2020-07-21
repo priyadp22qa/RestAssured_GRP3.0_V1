@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FrameworkTest(failed)">
+    <groups>
+      <run>
+        <include name="single"/>
+        <exclude name="batch"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.AddLicence">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+          <include name="licensenew"/>
+        </methods>
+      </class> <!-- test.AddLicence -->
+    </classes>
+  </test> <!-- FrameworkTest(failed) -->
+</suite> <!-- Failed suite [DemoSuite] -->

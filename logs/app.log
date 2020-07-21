@@ -1,0 +1,240 @@
+2020-07-20 17:43:41,165 INFO t.AddLicence [main] JSON Body :
+{
+        "key": "950234559",
+        "type": "GCP",
+        "status": 1,
+        "companyName": "test KOLPA, d.d. Metlika",
+        "issuerGLN": "3830034089996",
+        "licenseeGLN": "3838987999997",
+        "dataSourceGLN": null
+    }
+2020-07-20 17:43:43,135 INFO t.AddLicence [main] Response:
+{
+    "key": "950234559",
+    "type": "GCP",
+    "code": 1
+}
+2020-07-20 17:43:43,144 INFO t.AddLicence [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-20 17:43:44,039 INFO t.AddLicence [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
+2020-07-20 17:43:45,009 INFO t.GetLicence [main] API Response - 
+{"key":"950234557","type":"GCP","status":1,"companyName":"R &amp; J Imports C Inc.","issuerGLN":"3830034089996","licenseeGLN":"3838987999997","dataSourceGLN":null}
+2020-07-20 17:43:45,011 INFO t.GetLicence [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "status": 1,
+    "companyName": "R &amp; J Imports C Inc.",
+    "issuerGLN": "3830034089996",
+    "licenseeGLN": "3838987999997",
+    "dataSourceGLN": null
+}
+2020-07-20 17:43:45,012 INFO t.GetLicence [main] StatusCode 1=200
+2020-07-20 17:43:45,739 INFO t.GetLicence [main] API Response - 
+
+2020-07-20 17:43:45,740 INFO t.GetLicence [main] StatusCode 2=404
+2020-07-20 17:43:46,753 INFO t.DeleteLicence [main] Response:
+{
+    "key": "950234559",
+    "type": "GCP",
+    "code": 4
+}
+2020-07-20 17:43:46,755 INFO t.DeleteLicence [main] StatusCode:
+200
+2020-07-20 18:19:10,301 INFO t.AddLicence [main] JSON Body :
+{
+        "key": "950234559",
+        "type": "GCP",
+        "status": 1,
+        "companyName": "test KOLPA, d.d. Metlika",
+        "issuerGLN": "3830034089996",
+        "licenseeGLN": "3838987999997",
+        "dataSourceGLN": null
+    }
+2020-07-20 18:19:12,416 INFO t.AddLicence [main] Response:
+{
+    "key": "950234559",
+    "type": "GCP",
+    "code": 1
+}
+2020-07-20 18:19:12,425 INFO t.AddLicence [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-20 18:19:13,753 INFO t.AddLicence [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
+2020-07-20 18:19:14,454 INFO t.GetLicence [main] API Response - 
+{"key":"950234557","type":"GCP","status":1,"companyName":"R &amp; J Imports C Inc.","issuerGLN":"3830034089996","licenseeGLN":"3838987999997","dataSourceGLN":null}
+2020-07-20 18:19:14,457 INFO t.GetLicence [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "status": 1,
+    "companyName": "R &amp; J Imports C Inc.",
+    "issuerGLN": "3830034089996",
+    "licenseeGLN": "3838987999997",
+    "dataSourceGLN": null
+}
+2020-07-20 18:19:14,457 INFO t.GetLicence [main] StatusCode 1=200
+2020-07-20 18:19:15,153 INFO t.GetLicence [main] API Response - 
+
+2020-07-20 18:19:15,154 INFO t.GetLicence [main] StatusCode 2=404
+2020-07-20 18:19:15,914 INFO t.DeleteLicence [main] Response:
+{
+    "key": "950234559",
+    "type": "GCP",
+    "code": 4
+}
+2020-07-20 18:19:15,914 INFO t.DeleteLicence [main] StatusCode:
+200
+2020-07-20 18:19:15,917 INFO t.AddLicenceBatch [main] JSON Body :
+[
+	{
+		"key": "95023458",
+		"type": "GTIN",
+		"companyName": "Hlaing Foodstuff",
+		"status": 1,
+		"licenseeGLN": null,
+		"issuerGLN": null,
+		"dataSourceGLN": null
+	},
+	{
+		"key": "950234557",
+		"type": "gcp",
+		"companyName": "Htoo Aunt Curry Paste Enterprise",
+		"status": 1,
+		"licenseeGLN": null,
+		"issuerGLN": null,
+		"dataSourceGLN": null
+	},
+	{
+		"key": "9502345587686",
+		"type": "GLN",
+		"companyName": "Century Beverage CO.,LTD",
+		"status": 1,
+		"licenseeGLN": null,
+		"issuerGLN": null,
+		"dataSourceGLN": null
+	}
+]
+        
+2020-07-20 18:19:17,148 INFO t.AddLicenceBatch [main] Response:
+[
+    {
+        "key": "00000095023458",
+        "type": "GTIN",
+        "code": 1
+    },
+    {
+        "key": "950234557",
+        "type": "GCP",
+        "code": 2
+    },
+    {
+        "key": "9502345587686",
+        "type": "GLN",
+        "code": 1
+    }
+]
+2020-07-20 18:19:17,152 INFO t.AddLicenceBatch [main] JSON Body :
+[
+	{
+		"key": "95023458",
+		"type": "GTIN",
+		"companyName": "Hlaing Foodstuff",
+		"status": 1,
+		"licenseeGLN": null,
+		"issuerGLN": null,
+		"dataSourceGLN": null
+	},
+	{
+		"key": "950234557",
+		"type": "gcp",
+		"companyName": "Htoo Aunt Curry Paste Enterprise",
+		"status": 1,
+		"licenseeGLN": null,
+		"issuerGLN": null,
+		"dataSourceGLN": null
+	},
+	{
+		"key": "950234557",
+		"type": "gcp",
+		"companyName": "Htoo Aunt Curry Paste Enterprise",
+		"status": 1,
+		"licenseeGLN": null,
+		"issuerGLN": null,
+		"dataSourceGLN": null
+	},
+	{
+		"key": "9502345587686",
+		"type": "GLN",
+		"companyName": "Century Beverage CO.,LTD",
+		"status": 1,
+		"licenseeGLN": null,
+		"issuerGLN": null,
+		"dataSourceGLN": null
+	}
+]
+        
+2020-07-20 18:19:18,462 INFO t.AddLicenceBatch [main] Response:
+[
+    {
+        "key": "00000095023458",
+        "type": "GTIN",
+        "code": 2
+    },
+    {
+        "key": "950234557",
+        "type": "GCP",
+        "code": 2
+    },
+    {
+        "key": "950234557",
+        "type": "GCP",
+        "code": 5,
+        "reason": [
+            {
+                "path": "key/type",
+                "message": "Record already exists/ Duplicate value"
+            }
+        ]
+    },
+    {
+        "key": "9502345587686",
+        "type": "GLN",
+        "code": 2
+    }
+]
