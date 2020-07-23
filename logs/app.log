@@ -1,4 +1,12 @@
-2020-07-20 17:43:41,165 INFO t.AddLicence [main] JSON Body :
+2020-07-23 16:12:59,410 INFO t.DeleteLicence [main] Response:
+{
+    "key": "950234559",
+    "type": "GCP",
+    "code": 4
+}
+2020-07-23 16:12:59,413 INFO t.DeleteLicence [main] StatusCode:
+200
+2020-07-23 16:13:05,649 INFO t.AddLicence [main] JSON Body :
 {
         "key": "950234559",
         "type": "GCP",
@@ -8,13 +16,16 @@
         "licenseeGLN": "3838987999997",
         "dataSourceGLN": null
     }
-2020-07-20 17:43:43,135 INFO t.AddLicence [main] Response:
+2020-07-23 16:13:07,363 INFO t.AddLicence [main] Response:
 {
     "key": "950234559",
     "type": "GCP",
     "code": 1
 }
-2020-07-20 17:43:43,144 INFO t.AddLicence [main] JSON Body :
+2020-07-23 16:13:07,363 INFO t.AddLicence [main] API response - 
+HTTP/1.1 201 Created
+2020-07-23 16:13:07,695 INFO t.AddLicence [main] PASS
+2020-07-23 16:13:07,700 INFO t.AddLicence [main] JSON Body :
 {
 	"key": "950234557",
 	"type": "gcp",
@@ -24,7 +35,9 @@
 	"licenseeGLN": "3838987999997",
 	"dataSourceGLN": null
 }
-2020-07-20 17:43:44,039 INFO t.AddLicence [main] Response:
+2020-07-23 16:13:08,555 INFO t.AddLicence [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 16:13:08,558 INFO t.AddLicence [main] Response:
 {
     "key": "950234557",
     "type": "GCP",
@@ -35,31 +48,15 @@
         }
     ]
 }
-2020-07-20 17:43:45,009 INFO t.GetLicence [main] API Response - 
-{"key":"950234557","type":"GCP","status":1,"companyName":"R &amp; J Imports C Inc.","issuerGLN":"3830034089996","licenseeGLN":"3838987999997","dataSourceGLN":null}
-2020-07-20 17:43:45,011 INFO t.GetLicence [main] Response:
-{
-    "key": "950234557",
-    "type": "GCP",
-    "status": 1,
-    "companyName": "R &amp; J Imports C Inc.",
-    "issuerGLN": "3830034089996",
-    "licenseeGLN": "3838987999997",
-    "dataSourceGLN": null
-}
-2020-07-20 17:43:45,012 INFO t.GetLicence [main] StatusCode 1=200
-2020-07-20 17:43:45,739 INFO t.GetLicence [main] API Response - 
-
-2020-07-20 17:43:45,740 INFO t.GetLicence [main] StatusCode 2=404
-2020-07-20 17:43:46,753 INFO t.DeleteLicence [main] Response:
+2020-07-23 16:13:57,263 INFO t.DeleteLicence [main] Response:
 {
     "key": "950234559",
     "type": "GCP",
     "code": 4
 }
-2020-07-20 17:43:46,755 INFO t.DeleteLicence [main] StatusCode:
+2020-07-23 16:13:57,266 INFO t.DeleteLicence [main] StatusCode:
 200
-2020-07-20 18:19:10,301 INFO t.AddLicence [main] JSON Body :
+2020-07-23 16:14:02,754 INFO t.AddLicence [main] JSON Body :
 {
         "key": "950234559",
         "type": "GCP",
@@ -69,13 +66,16 @@
         "licenseeGLN": "3838987999997",
         "dataSourceGLN": null
     }
-2020-07-20 18:19:12,416 INFO t.AddLicence [main] Response:
+2020-07-23 16:14:04,759 INFO t.AddLicence [main] Response:
 {
     "key": "950234559",
     "type": "GCP",
     "code": 1
 }
-2020-07-20 18:19:12,425 INFO t.AddLicence [main] JSON Body :
+2020-07-23 16:14:04,760 INFO t.AddLicence [main] API response - 
+HTTP/1.1 201 Created
+2020-07-23 16:14:05,129 INFO t.AddLicence [main] Assert PASS
+2020-07-23 16:14:05,134 INFO t.AddLicence [main] JSON Body :
 {
 	"key": "950234557",
 	"type": "gcp",
@@ -85,7 +85,9 @@
 	"licenseeGLN": "3838987999997",
 	"dataSourceGLN": null
 }
-2020-07-20 18:19:13,753 INFO t.AddLicence [main] Response:
+2020-07-23 16:14:05,949 INFO t.AddLicence [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 16:14:05,952 INFO t.AddLicence [main] Response:
 {
     "key": "950234557",
     "type": "GCP",
@@ -96,145 +98,372 @@
         }
     ]
 }
-2020-07-20 18:19:14,454 INFO t.GetLicence [main] API Response - 
-{"key":"950234557","type":"GCP","status":1,"companyName":"R &amp; J Imports C Inc.","issuerGLN":"3830034089996","licenseeGLN":"3838987999997","dataSourceGLN":null}
-2020-07-20 18:19:14,457 INFO t.GetLicence [main] Response:
-{
-    "key": "950234557",
-    "type": "GCP",
-    "status": 1,
-    "companyName": "R &amp; J Imports C Inc.",
-    "issuerGLN": "3830034089996",
-    "licenseeGLN": "3838987999997",
-    "dataSourceGLN": null
-}
-2020-07-20 18:19:14,457 INFO t.GetLicence [main] StatusCode 1=200
-2020-07-20 18:19:15,153 INFO t.GetLicence [main] API Response - 
-
-2020-07-20 18:19:15,154 INFO t.GetLicence [main] StatusCode 2=404
-2020-07-20 18:19:15,914 INFO t.DeleteLicence [main] Response:
+2020-07-23 16:44:31,499 INFO t.DeleteLicence [main] Response:
 {
     "key": "950234559",
     "type": "GCP",
     "code": 4
 }
-2020-07-20 18:19:15,914 INFO t.DeleteLicence [main] StatusCode:
+2020-07-23 16:44:31,504 INFO t.DeleteLicence [main] StatusCode:
 200
-2020-07-20 18:19:15,917 INFO t.AddLicenceBatch [main] JSON Body :
-[
-	{
-		"key": "95023458",
-		"type": "GTIN",
-		"companyName": "Hlaing Foodstuff",
-		"status": 1,
-		"licenseeGLN": null,
-		"issuerGLN": null,
-		"dataSourceGLN": null
-	},
-	{
-		"key": "950234557",
-		"type": "gcp",
-		"companyName": "Htoo Aunt Curry Paste Enterprise",
-		"status": 1,
-		"licenseeGLN": null,
-		"issuerGLN": null,
-		"dataSourceGLN": null
-	},
-	{
-		"key": "9502345587686",
-		"type": "GLN",
-		"companyName": "Century Beverage CO.,LTD",
-		"status": 1,
-		"licenseeGLN": null,
-		"issuerGLN": null,
-		"dataSourceGLN": null
-	}
-]
-        
-2020-07-20 18:19:17,148 INFO t.AddLicenceBatch [main] Response:
-[
-    {
-        "key": "00000095023458",
-        "type": "GTIN",
-        "code": 1
-    },
-    {
-        "key": "950234557",
+2020-07-23 16:44:38,475 INFO t.trial [main] JSON Body :
+{
+        "key": "950234559",
         "type": "GCP",
-        "code": 2
-    },
-    {
-        "key": "9502345587686",
-        "type": "GLN",
-        "code": 1
+        "status": 1,
+        "companyName": "test KOLPA, d.d. Metlika",
+        "issuerGLN": "3830034089996",
+        "licenseeGLN": "3838987999997",
+        "dataSourceGLN": null
     }
-]
-2020-07-20 18:19:17,152 INFO t.AddLicenceBatch [main] JSON Body :
-[
-	{
-		"key": "95023458",
-		"type": "GTIN",
-		"companyName": "Hlaing Foodstuff",
-		"status": 1,
-		"licenseeGLN": null,
-		"issuerGLN": null,
-		"dataSourceGLN": null
-	},
-	{
-		"key": "950234557",
-		"type": "gcp",
-		"companyName": "Htoo Aunt Curry Paste Enterprise",
-		"status": 1,
-		"licenseeGLN": null,
-		"issuerGLN": null,
-		"dataSourceGLN": null
-	},
-	{
-		"key": "950234557",
-		"type": "gcp",
-		"companyName": "Htoo Aunt Curry Paste Enterprise",
-		"status": 1,
-		"licenseeGLN": null,
-		"issuerGLN": null,
-		"dataSourceGLN": null
-	},
-	{
-		"key": "9502345587686",
-		"type": "GLN",
-		"companyName": "Century Beverage CO.,LTD",
-		"status": 1,
-		"licenseeGLN": null,
-		"issuerGLN": null,
-		"dataSourceGLN": null
-	}
-]
-        
-2020-07-20 18:19:18,462 INFO t.AddLicenceBatch [main] Response:
-[
-    {
-        "key": "00000095023458",
-        "type": "GTIN",
-        "code": 2
-    },
-    {
-        "key": "950234557",
+2020-07-23 16:48:28,664 INFO t.trial [main] JSON Body :
+{
+        "key": "950234559",
         "type": "GCP",
-        "code": 2
-    },
-    {
-        "key": "950234557",
-        "type": "GCP",
-        "code": 5,
-        "reason": [
-            {
-                "path": "key/type",
-                "message": "Record already exists/ Duplicate value"
-            }
-        ]
-    },
-    {
-        "key": "9502345587686",
-        "type": "GLN",
-        "code": 2
+        "status": 1,
+        "companyName": "test KOLPA, d.d. Metlika",
+        "issuerGLN": "3830034089996",
+        "licenseeGLN": "3838987999997",
+        "dataSourceGLN": null
     }
-]
+2020-07-23 16:54:02,014 INFO t.trial [main] JSON Body :
+{
+        "key": "950234559",
+        "type": "GCP",
+        "status": 1,
+        "companyName": "test KOLPA, d.d. Metlika",
+        "issuerGLN": "3830034089996",
+        "licenseeGLN": "3838987999997",
+        "dataSourceGLN": null
+    }
+2020-07-23 16:56:47,265 INFO t.trial [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-23 16:56:49,073 INFO t.trial [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
+2020-07-23 16:56:49,073 INFO t.trial [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 17:03:05,485 INFO t.trial [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-23 17:03:07,385 INFO t.trial [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
+2020-07-23 17:03:07,386 INFO t.trial [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 17:13:58,373 INFO t.trial [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-23 17:14:00,133 INFO t.trial [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
+2020-07-23 17:14:00,133 INFO t.trial [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 17:19:23,903 INFO t.trial [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-23 17:19:25,817 INFO t.trial [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
+2020-07-23 17:19:25,817 INFO t.trial [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 17:24:38,232 INFO t.trial [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-23 17:24:40,141 INFO t.trial [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
+2020-07-23 17:24:40,141 INFO t.trial [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 17:26:54,887 INFO t.trial [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-23 17:26:56,625 INFO t.trial [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
+2020-07-23 17:26:56,626 INFO t.trial [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 17:27:52,508 INFO t.trial [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-23 17:27:54,225 INFO t.trial [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
+2020-07-23 17:27:54,225 INFO t.trial [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 17:29:27,875 INFO t.trial [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-23 17:29:29,602 INFO t.trial [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
+2020-07-23 17:29:29,602 INFO t.trial [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 17:30:04,833 INFO t.trial [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-23 17:30:06,654 INFO t.trial [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
+2020-07-23 17:30:06,654 INFO t.trial [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 17:31:15,021 INFO t.trial [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-23 17:31:16,797 INFO t.trial [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
+2020-07-23 17:31:16,797 INFO t.trial [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 17:33:56,484 INFO t.trial [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-23 17:33:58,228 INFO t.trial [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
+2020-07-23 17:33:58,228 INFO t.trial [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 17:34:36,491 INFO t.trial [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-23 17:34:38,513 INFO t.trial [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
+2020-07-23 17:34:38,514 INFO t.trial [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 17:36:06,547 INFO t.trial [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-23 17:36:08,235 INFO t.trial [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
+2020-07-23 17:36:08,235 INFO t.trial [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 17:37:07,937 INFO t.AddLicence [main] Response:
+{
+    "key": "950234559",
+    "type": "GCP",
+    "code": 1
+}
+2020-07-23 17:37:07,940 INFO t.AddLicence [main] API response - 
+HTTP/1.1 201 Created
+2020-07-23 17:37:08,277 INFO t.AddLicence [main] Assert PASS
+2020-07-23 17:37:08,284 INFO t.AddLicence [main] JSON Body :
+{
+	"key": "950234557",
+	"type": "gcp",
+	"companyName": "R & J Imports C Inc.",
+	"status": 1,
+	"issuerGLN": "3830034089996",
+	"licenseeGLN": "3838987999997",
+	"dataSourceGLN": null
+}
+2020-07-23 17:37:09,026 INFO t.AddLicence [main] API response - 
+HTTP/1.1 400 Bad Request
+2020-07-23 17:37:09,035 INFO t.AddLicence [main] Response:
+{
+    "key": "950234557",
+    "type": "GCP",
+    "code": 5,
+    "reason": [
+        {
+            "message": "GCP license 950234557 already exists"
+        }
+    ]
+}
