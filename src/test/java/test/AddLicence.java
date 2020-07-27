@@ -21,8 +21,8 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
-
-
+// if you get error for the first test case here, then run delete licence first and then this.
+// run all test cases as testng suite
 public class AddLicence extends BaseTest{
 
 	String endPoint1 = "/license/v2/licenses";

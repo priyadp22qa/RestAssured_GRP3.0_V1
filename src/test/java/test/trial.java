@@ -40,7 +40,7 @@ public class trial extends BaseTest {
 		return new String(Files.readAllBytes(Paths.get(filePath)));
 	}
 
-	@BeforeClass(alwaysRun=true)
+	@BeforeClass
 	public void beforeClass() {;
 	//headerMap.clear();
 	log = LogManager.getLogger(Test.class);

@@ -1,78 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="10" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-20T18:19:09 EDT" name="DemoSuite" finished-at="2020-07-20T18:19:18 EDT" duration-ms="8581">
+  <suite started-at="2020-07-23T17:37:05 EDT" name="Default suite" finished-at="2020-07-23T17:37:09 EDT" duration-ms="3211">
     <groups>
       <group name="single">
-        <method signature="AddLicence.licenseexist()[pri:2, instance:test.AddLicence@d4342c2]" name="licenseexist" class="test.AddLicence"/>
-        <method signature="AddLicence.licensenew()[pri:1, instance:test.AddLicence@d4342c2]" name="licensenew" class="test.AddLicence"/>
-        <method signature="DeleteLicence.DeleteSingleLicense()[pri:5, instance:test.DeleteLicence@56de5251]" name="DeleteSingleLicense" class="test.DeleteLicence"/>
-        <method signature="GetLicence.getSingleLicenceBadrequest()[pri:4, instance:test.GetLicence@163e4e87]" name="getSingleLicenceBadrequest" class="test.GetLicence"/>
-        <method signature="GetLicence.getSingleLicenseGoodrequest()[pri:3, instance:test.GetLicence@163e4e87]" name="getSingleLicenseGoodrequest" class="test.GetLicence"/>
+        <method signature="AddLicence.licenseexist()[pri:2, instance:test.AddLicence@45018215]" name="licenseexist" class="test.AddLicence"/>
+        <method signature="AddLicence.licensenew()[pri:1, instance:test.AddLicence@45018215]" name="licensenew" class="test.AddLicence"/>
       </group> <!-- single -->
-      <group name="batch">
-        <method signature="AddLicenceBatch.Batchlicence()[pri:6, instance:test.AddLicenceBatch@419c5f1a]" name="Batchlicence" class="test.AddLicenceBatch"/>
-        <method signature="AddLicenceBatch.DuplicateLicence()[pri:7, instance:test.AddLicenceBatch@419c5f1a]" name="DuplicateLicence" class="test.AddLicenceBatch"/>
-      </group> <!-- batch -->
     </groups>
-    <test started-at="2020-07-20T18:19:09 EDT" name="FrameworkTest" finished-at="2020-07-20T18:19:18 EDT" duration-ms="8581">
+    <test started-at="2020-07-23T17:37:05 EDT" name="Default test" finished-at="2020-07-23T17:37:09 EDT" duration-ms="3211">
       <class name="test.AddLicence">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.AddLicence@d4342c2]" started-at="2020-07-20T18:19:09 EDT" name="beforeSuite" finished-at="2020-07-20T18:19:09 EDT" duration-ms="483" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.AddLicence@45018215]" started-at="2020-07-23T17:37:05 EDT" name="beforeSuite" finished-at="2020-07-23T17:37:05 EDT" duration-ms="446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.AddLicence@d4342c2]" started-at="2020-07-20T18:19:09 EDT" name="beforeClass" finished-at="2020-07-20T18:19:10 EDT" duration-ms="396" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.AddLicence@45018215]" started-at="2020-07-23T17:37:05 EDT" name="beforeClass" finished-at="2020-07-23T17:37:06 EDT" duration-ms="350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="licensenew()[pri:1, instance:test.AddLicence@d4342c2]" started-at="2020-07-20T18:19:10 EDT" name="licensenew" finished-at="2020-07-20T18:19:12 EDT" duration-ms="2126" status="PASS">
+        <test-method signature="licensenew()[pri:1, instance:test.AddLicence@45018215]" started-at="2020-07-23T17:37:06 EDT" name="licensenew" finished-at="2020-07-23T17:37:08 EDT" duration-ms="2065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- licensenew -->
-        <test-method signature="licenseexist()[pri:2, instance:test.AddLicence@d4342c2]" started-at="2020-07-20T18:19:12 EDT" name="licenseexist" finished-at="2020-07-20T18:19:13 EDT" duration-ms="1330" status="PASS">
+        <test-method signature="licenseexist()[pri:2, instance:test.AddLicence@45018215]" started-at="2020-07-23T17:37:08 EDT" name="licenseexist" finished-at="2020-07-23T17:37:09 EDT" duration-ms="776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- licenseexist -->
       </class> <!-- test.AddLicence -->
-      <class name="test.GetLicence">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.GetLicence@163e4e87]" started-at="2020-07-20T18:19:13 EDT" name="beforeClass" finished-at="2020-07-20T18:19:13 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="getSingleLicenseGoodrequest()[pri:3, instance:test.GetLicence@163e4e87]" started-at="2020-07-20T18:19:13 EDT" name="getSingleLicenseGoodrequest" finished-at="2020-07-20T18:19:14 EDT" duration-ms="702" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSingleLicenseGoodrequest -->
-        <test-method signature="getSingleLicenceBadrequest()[pri:4, instance:test.GetLicence@163e4e87]" started-at="2020-07-20T18:19:14 EDT" name="getSingleLicenceBadrequest" finished-at="2020-07-20T18:19:15 EDT" duration-ms="696" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSingleLicenceBadrequest -->
-      </class> <!-- test.GetLicence -->
-      <class name="test.DeleteLicence">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.DeleteLicence@56de5251]" started-at="2020-07-20T18:19:15 EDT" name="beforeClass" finished-at="2020-07-20T18:19:15 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="DeleteSingleLicense()[pri:5, instance:test.DeleteLicence@56de5251]" started-at="2020-07-20T18:19:15 EDT" name="DeleteSingleLicense" finished-at="2020-07-20T18:19:15 EDT" duration-ms="757" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeleteSingleLicense -->
-      </class> <!-- test.DeleteLicence -->
-      <class name="test.AddLicenceBatch">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.AddLicenceBatch@419c5f1a]" started-at="2020-07-20T18:19:15 EDT" name="beforeClass" finished-at="2020-07-20T18:19:15 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="Batchlicence()[pri:6, instance:test.AddLicenceBatch@419c5f1a]" started-at="2020-07-20T18:19:15 EDT" name="Batchlicence" finished-at="2020-07-20T18:19:17 EDT" duration-ms="1232" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Batchlicence -->
-        <test-method signature="DuplicateLicence()[pri:7, instance:test.AddLicenceBatch@419c5f1a]" started-at="2020-07-20T18:19:17 EDT" name="DuplicateLicence" finished-at="2020-07-20T18:19:18 EDT" duration-ms="1313" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DuplicateLicence -->
-      </class> <!-- test.AddLicenceBatch -->
-    </test> <!-- FrameworkTest -->
-  </suite> <!-- DemoSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

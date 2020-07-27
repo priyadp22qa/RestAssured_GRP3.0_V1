@@ -5,7 +5,7 @@
     <groups>
       <run>
         <include name="single"/>
-        <exclude name="batch"/>
+        <include name="batch"/>
       </run>
     </groups>
     <classes>
